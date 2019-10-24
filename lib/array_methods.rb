@@ -12,7 +12,7 @@ def find_max_value(array)
   
   array.lentgh.times do |index|
     if array[index] > max_value
-      max_value +=
+      max_value += 1
     end
   end
   return max_value
